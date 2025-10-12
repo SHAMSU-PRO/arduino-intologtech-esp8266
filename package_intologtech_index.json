@@ -18,35 +18,28 @@
           "boards": [
             {"name": "IoTDev v1"}
           ],
-"toolsDependencies": [
-  {
-    "name": "xtensa-lx106-elf-gcc",
-    "version": "3.0.0",
-    "packager": "esp8266"
-  },
-  {
-    "name": "esptool",
-    "version": "0.6.2",
-    "packager": "esp8266"
-  },
-  {
-    "name": "mkspiffs",
-    "version": "3.1.0",
-    "packager": "esp8266"
-  },
-  {
-    "name": "python3",
-    "version": "3.7.2-post1",
-    "packager": "esp8266"
-  }
-]
-
-        }
-      ],
+          "toolsDependencies": [
+            {
+              "packager": "esp8266",
+              "version": "0.4.12",
+              "name": "esptool"
+            },
+            {
+              "packager": "esp8266",
+              "version": "1.20.0-26-gb404fb9-2",
+              "name": "xtensa-lx106-elf-gcc"
+            },
+            {
+              "packager": "esp8266",
+              "version": "0.2.0",
+              "name": "mkspiffs"
+            }
+          ],
       "tools": []
     }
   ]
 }
+
 
 
 
