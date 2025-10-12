@@ -5,6 +5,9 @@
       "maintainer": "IntologTech Team",
       "websiteURL": "https://intologtech.com",
       "email": "support@intologtech.com",
+      "help": {
+        "online": "https://intologtech.com/support"
+      },
       "platforms": [
         {
           "name": "IntologTech ESP8266 Boards",
@@ -14,25 +17,27 @@
           "url": "https://github.com/SHAMSU-PRO/arduino-intologtech-esp8266/releases/download/V1.0.0/intologtech.zip",
           "archiveFileName": "intologtech.zip",
           "checksum": "sha256:bc9e56fee98476eebfbf96cfe3c2b41d04ed71c8c7e28f27b2607ac2e5b690ed",
-          "size": "38977821",
+          "size": 38977821,
           "boards": [
-            {"name": "IoTDev v1"}
+            {
+              "name": "IoTDev v1"
+            }
           ],
           "toolsDependencies": [
             {
               "packager": "esp8266",
-              "version": "0.4.12",
-              "name": "esptool"
+              "name": "esptool",
+              "version": "0.4.12"
             },
             {
               "packager": "esp8266",
-              "version": "1.20.0-26-gb404fb9-2",
-              "name": "xtensa-lx106-elf-gcc"
+              "name": "xtensa-lx106-elf-gcc",
+              "version": "1.20.0-26-gb404fb9-2"
             },
             {
               "packager": "esp8266",
-              "version": "0.2.0",
-              "name": "mkspiffs"
+              "name": "mkspiffs",
+              "version": "0.2.0"
             }
           ]
         }
