@@ -1,0 +1,38 @@
+{
+  "packages": [
+    {
+      "name": "IntologTech",
+      "maintainer": "IntologTech Team",
+      "websiteURL": "https://intologtech.com",
+      "email": "support@intologtech.com",
+      "platforms": [
+        {
+          "name": "IntologTech ESP8266 Boards",
+          "architecture": "esp8266",
+          "version": "1.0.0",
+          "category": "ESP8266",
+          "url": "https://os5.mycloud.com/action/share/12643223-9c70-4a14-aa2a-2781101febfa",
+          "archiveFileName": "intologtech.zip",
+          "checksum": "bc9e56fee98476eebfbf96cfe3c2b41d04ed71c8c7e28f27b2607ac2e5b690ed",
+          "size": "38977821",
+          "boards": [
+            {"name": "IoTDev v1"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "esp8266",
+              "name": "xtensa-lx106-elf-gcc",
+              "version": "3.0.0"
+            },
+            {
+              "packager": "esp8266",
+              "name": "esptool",
+              "version": "0.4.13"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
