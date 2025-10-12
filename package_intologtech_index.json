@@ -5,6 +5,9 @@
       "maintainer": "IntologTech",
       "websiteURL": "https://github.com/intologtech/arduino-intologtech-esp8266",
       "email": "support@intologtech.com",
+      "help": {
+        "online": "https://github.com/intologtech/arduino-intologtech-esp8266/wiki"
+      },
       "platforms": [
         {
           "name": "IntologTech ESP8266 Boards",
@@ -15,9 +18,6 @@
           "archiveFileName": "intologtech.zip",
           "checksum": "sha256:bc9e56fee98476eebfbf96cfe3c2b41d04ed71c8c7e28f27b2607ac2e5b690ed",
           "size": "38977821",
-          "help": {
-            "online": "https://github.com/intologtech/arduino-intologtech-esp8266/wiki"
-          },
           "boards": [
             { "name": "IoTDev v1" }
           ],
@@ -26,6 +26,14 @@
             { "name": "esptool", "version": "0.6.2", "packager": "esp8266" },
             { "name": "mkspiffs", "version": "3.1.0", "packager": "esp8266" },
             { "name": "python3", "version": "3.7.2-post1", "packager": "esp8266" }
+          ],
+          "dependencies": [
+            {
+              "packager": "esp8266",
+              "name": "esp8266",
+              "version": "3.1.2",
+              "url": "https://arduino.esp8266.com/stable/package_esp8266com_index.json"
+            }
           ]
         }
       ],
@@ -33,3 +41,5 @@
     }
   ]
 }
+
+
