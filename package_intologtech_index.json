@@ -19,20 +19,12 @@
             {"name": "IoTDev v1"}
           ],
           "toolsDependencies": [
-            {
-              "packager": "esp8266",
-              "name": "xtensa-lx106-elf-gcc",
-               "version": "5.100300.220621"
-            },
-            {
-              "packager": "esp8266",
-              "name": "esptool",
-              "version": "3.0"
-            }
-          ]
+            {"url": "https://arduino.esp8266.com/stable/package_esp8266com_index.json"}
+            ]
         }
       ],
       "tools": []
     }
   ]
 }
+
