@@ -18,21 +18,10 @@
           "boards": [
             {"name": "IoTDev v1"}
           ],
-          "toolsDependencies": [
-            {
-              "packager": "esp8266",
-              "name": "xtensa-lx106-elf-gcc",
-              "version": "8.4.0 "
-            },
-            {
-              "packager": "esp8266",
-              "name": "esptool",
-              "version": "5.1.0"
-            }
-          ]
         }
       ],
       "tools": []
     }
   ]
 }
+
