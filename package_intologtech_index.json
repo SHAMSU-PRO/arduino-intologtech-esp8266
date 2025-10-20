@@ -16,8 +16,8 @@
           "category": "ESP8266",
           "url": "https://github.com/SHAMSU-PRO/arduino-intologtech-esp8266/releases/download/V1.0.0/intologtech.zip",
           "archiveFileName": "intologtech.zip",
-          "checksum": "SHA-256:8cb1f8a3ab6a6cbe40ed6dbd2c3ade677cbb98658bf2f09ff7bbef1da1b1d4ea",
-          "size": 38896849 ,
+          "checksum": "sha256:086ddd6189f9ecbee3585de1cafd653644c2a53c0b8a180e2f4d172c2836d3ae",
+          "size": 38892639 ,
           "boards": [
             {
               "name": "IoTDev v1"
@@ -46,6 +46,7 @@
     }
   ]
 }
+
 
 
 
