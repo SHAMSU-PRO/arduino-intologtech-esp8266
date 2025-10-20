@@ -16,7 +16,7 @@
           "category": "ESP8266",
           "url": "https://github.com/SHAMSU-PRO/arduino-intologtech-esp8266/releases/download/V1.0.0/intologtech.zip",
           "archiveFileName": "intologtech.zip",
-          "checksum": "sha256:086ddd6189f9ecbee3585de1cafd653644c2a53c0b8a180e2f4d172c2836d3ae",
+          "checksum": "sha256:eba0a7de242a31af9b09301a9b44cac91bdabe4211c2adce239e1cc42f24caa2",
           "size": 38892639 ,
           "boards": [
             {
@@ -46,6 +46,7 @@
     }
   ]
 }
+
 
 
 
